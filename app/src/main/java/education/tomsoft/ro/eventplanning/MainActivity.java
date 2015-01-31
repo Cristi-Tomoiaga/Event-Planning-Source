@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final Client mKinveyClient = new Client.Builder("kid_b1yHnWLyd", "dd8b8dbf896b445f8b3cbadadc140642", this.getApplicationContext()).build();
+        final Client mKinveyClient = new Client.Builder("yourkey1", "yourkey2", this.getApplicationContext()).build();
         username = (EditText) findViewById(R.id.username_edit);
         password = (EditText) findViewById(R.id.password_edit);
         buttonLogin = (Button) findViewById(R.id.login_button);
