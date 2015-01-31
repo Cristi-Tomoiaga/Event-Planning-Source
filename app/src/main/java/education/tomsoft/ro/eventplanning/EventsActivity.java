@@ -15,7 +15,7 @@ public class EventsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_events);
-        final Client mKinveyClient = new Client.Builder("kid_b1yHnWLyd", "dd8b8dbf896b445f8b3cbadadc140642", this.getApplicationContext()).build();
+        final Client mKinveyClient = new Client.Builder("yourkey2", "yourkey2", this.getApplicationContext()).build();
     }
 
 
